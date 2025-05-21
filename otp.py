@@ -326,7 +326,7 @@ def start(nomor,x): # Def Untuk Start Tools
         
 def main():
     os.system("cls") # Clear Terminal agar CMD berwarna
-    autoketik(f"Selamat datang di {merah}SPAM ATTACH")
+    autoketik(f"Selamat datang di {merah}SPAM ATTACK")
     print(f"""{kuning}Author      : {hijau}Raka Wirya Kusuma
 {kuning}Github      : {merah}github.com/RakaWiryaKusuma
 {kuning}Instagram   : {biru}instagram.com/rakaa.js""")
