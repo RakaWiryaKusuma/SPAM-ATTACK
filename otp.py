@@ -276,10 +276,11 @@ def jam(nomor): # Don't Remove Code !!!!
                 rto = 1 # Flag tunda
             
             except requests.exceptions.ConnectionError:
-                print("")1
+                print("")  # Print an empty line
                 autoketik("--Fail to establish a new connection--")
-                time.sleep(1000) # Tunda 1000 detik
+                time.sleep(1000)  # Delay for 1000 seconds
                 rto = 1
+
 
             #https://urllib3.readthedocs.io/en/stable/reference/urllib3.exceptions.html
             except urllib3.exceptions.NewConnectionError: # Error Handling 2 ketika masih terjadi error berlebihan
